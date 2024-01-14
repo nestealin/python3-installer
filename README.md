@@ -35,10 +35,7 @@
 ### 帮助说明
 
 ```bash
-git clone https://github.com/nestealin/python3-installer.git
-cd python3-installer
-chmod +x py3_auto_install.sh
-./py3_auto_install.sh -h
+source <(curl -sL https://github.com/nestealin/python3-installer/releases/download/v1.0.0/py3_auto_install.sh) -h
 ```
 
 
@@ -46,10 +43,7 @@ chmod +x py3_auto_install.sh
 ### 只安装Python3及PiP3
 
 ```bash
-git clone https://github.com/nestealin/python3-installer.git
-cd python3-installer
-chmod +x py3_auto_install.sh
-./py3_auto_install.sh -d
+source <(curl -sL https://github.com/nestealin/python3-installer/releases/download/v1.0.0/py3_auto_install.sh) -d
 ```
 
 
@@ -57,9 +51,6 @@ chmod +x py3_auto_install.sh
 ### 安装Python3并安装虚拟环境(virtualenv)
 
 ```bash
-git clone https://github.com/nestealin/python3-installer.git
-cd python3-installer
-chmod +x py3_auto_install.sh
-./py3_auto_install.sh -v
+source <(curl -sL https://github.com/nestealin/python3-installer/releases/download/v1.0.0/py3_auto_install.sh) -v
 ```
 
